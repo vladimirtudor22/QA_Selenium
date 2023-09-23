@@ -43,6 +43,23 @@ describe("Search a product", () => {
       )
       .click();
   });
+  it("Can switch between platforms", async () => {
+    await driver.findElement(By.id("platform_for_display_0")).click();
+    await driver.findElement(By.id("platform_for_display_1")).click();
+    await driver.findElement(By.id("platform_for_display_0")).click();
+  });
+  it("Can switch between Standard/Deluxe/Premium/Expansions Bundle", async () => {
+    await driver.findElement(By.id("edition_0")).click();
+    await driver.findElement(By.id("edition_1")).click();
+    await driver.findElement(By.id("edition_2")).click();
+    await driver.findElement(By.id("edition_3")).click();
+  });
+  it("Should be able to see the description for the item", async () => {
+    await driver.findElement(By.id("featurebullets_feature_div")).isDisplayed();
+  });
+  it("Should see 'Product information' section", async () => {
+    await driver.findElement(By.id("productDetails_detailBullets_sections1"));
+  });
   it("DELAY", async () => {
     await driver.sleep(8000);
   });
