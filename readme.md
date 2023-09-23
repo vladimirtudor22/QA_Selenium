@@ -11,8 +11,11 @@ To ensure smooth setup and functionality, follow these steps:
    ```
 
 3. **Run the following command to execute the tests:**
+
    ```bash
    npm test
    ```
+
+**Note**: This project was created and tested on macOS.
 
 Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
