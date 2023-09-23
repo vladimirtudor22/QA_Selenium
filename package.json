@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npx mocha ./specs/*.test.js --timeout 10000"
+    "test": "for file in ./specs/*.test.js; do mocha $file --timeout 10000; done"
   },
   "type": "module",
   "name": "selenium-test",
