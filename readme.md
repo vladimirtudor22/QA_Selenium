@@ -85,4 +85,4 @@ These functionalities were chosen to comprehensively cover various aspects of th
 >
 > - Proceed to place the order.
 >
->   However, it's important to note that this scenario cannot be executed seamlessly. After clicking the create button, there is an additional step requiring the resolution of a captcha code.
+> > However, it's important to note that this scenario cannot be executed seamlessly. After clicking the create button, there is an additional step requiring the resolution of a captcha code.
