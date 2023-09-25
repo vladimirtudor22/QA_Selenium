@@ -1,1 +1,3 @@
 slow: 4000
+reporterOptions:
+  output: "./report.xml"

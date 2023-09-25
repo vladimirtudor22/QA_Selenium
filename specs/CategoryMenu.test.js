@@ -1,4 +1,4 @@
-import { Builder, By, Capabilities, Key } from "selenium-webdriver";
+import { Builder, By, Capabilities, Key, until } from "selenium-webdriver";
 import { describe, it } from "mocha";
 
 const capabilities = Capabilities.chrome();
@@ -14,14 +14,21 @@ describe("Category Test", () => {
   });
   it("Can press on electronics", async () => {
     await driver.findElement(By.css('[data-menu-id="5"]')).click();
-    await driver.sleep(1000);
+  });
+  it("Pause for 2s", async () => {
+    await driver.sleep(2000);
   });
   it("Can press on Accessories & Supplies", async () => {
+    const element = await driver.findElement(
+      By.xpath('//*[@id="hmenu-content"]/ul[5]/li[3]/a')
+    );
+    await driver.executeScript("arguments[0].click();", element);
+  });
+  it("Can press on 20nd product", async () => {
     await driver
-      .findElement(By.xpath('//*[@id="hmenu-content"]/ul[5]/li[3]/a'))
+      .findElement(By.css('[cel_widget_id="MAIN-SEARCH_RESULTS-20"]'))
       .click();
   });
-
   it("Quit session", async () => {
     await driver.quit();
   });
