@@ -37,6 +37,8 @@ In this automated testing demo utilizing Selenium WebDriver, I have chosen the A
 - Verify the ability to open the category menu.
 - Select a category and a subcategory.
 - Confirm the existence of a product within the chosen category.
+  > [!NOTE]
+  > Highlights information that users should take into account, even when skimming.
 
 ### Product Variant Selection
 
@@ -56,3 +58,31 @@ In this automated testing demo utilizing Selenium WebDriver, I have chosen the A
 - Refrain from pressing the button to avoid creating an account on the platform.
 
 These functionalities were chosen to comprehensively cover various aspects of the Amazon.com platform while ensuring non-intrusive testing.
+
+> [!NOTE]
+>
+> # Comprehensive Test Scenario
+
+> To effectively test this functionality, we have devised the following comprehensive scenario:
+
+> 1.  **Product Selection and Initiation of Purchase**
+
+- Select a product and click on the "Buy Now" button.
+
+> 2.  **Login Screen Activation and Account Creation**
+
+- The login screen is triggered, click on "Create an Account".
+
+> 3.  **Form Completion and Registration**
+
+- Complete the required form and click on the register button.
+
+> 4.  **Account Creation and Provision of Details**
+
+- An account is successfully created, enabling the addition of shipping and billing information.
+
+> 5.  **Order Placement**
+
+- Proceed to place the order.
+
+> However, it's important to note that this scenario cannot be executed seamlessly. After clicking the create button, there is an additional step requiring the resolution of a captcha code.
