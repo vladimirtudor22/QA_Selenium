@@ -1,7 +1,9 @@
 ## Document Content
 
 [Runtime Environment Configuration](#runtime-environment-configuration)
+
 [Test Scenarios](#test-scenarios)
+
 [Application Features](#application-features)
 
 # Automated Testing Demo using Selenium WebDriver
