@@ -151,30 +151,69 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Confirm smooth navigation through pages and product categories.
 
 - **Test Scenarios:**
-  - Test the search functionality.
-  - Test filtering and sorting options.
-  - Test navigation through different categories.
+
+  - **Test 1: Search Functionality:**
+
+    - Perform a search for a sample product.
+    - **Expected Outcome:**
+      - Search results displayed correctly.
+
+  - **Test 2: Filtering and Sorting:**
+
+    - Apply filters and sorting options on search results.
+    - **Expected Outcome:**
+      - Results are appropriately filtered and sorted.
+
+  - **Test 3: Navigation through Categories:**
+    - Navigate through different product categories.
+    - **Expected Outcome:**
+      - Smooth navigation without errors.
 
 ### 2. Account Management
 
 - **Objective:**
-  - Validate authentication and registration processes.
-  - Verify the account management process including address, payment details, and delivery options.
+
+  - Validate the absence of account creation and authentication.
+
 - **Test Scenarios:**
-  - Test account authentication.
-  - Test account registration.
-  - Test updating account information.
+
+  - **Test 1: Account Creation:**
+
+    - Attempt to create an account (which is not possible in this context).
+    - **Expected Outcome:**
+      - Account creation feature is not available.
+
+  - **Test 2: Account Authentication:**
+    - Attempt to authenticate to an existing account (which is not possible in this context).
+    - **Expected Outcome:**
+      - Account authentication feature is not available.
 
 ### 3. Shopping Cart
 
 - **Objective:**
+
   - Validate adding and removing items from the shopping cart.
   - Verify the calculation of the total and taxes.
   - Confirm the order completion process.
+
 - **Test Scenarios:**
-  - Test adding items to the shopping cart.
-  - Test removing items from the shopping cart.
-  - Test cart total calculation.
+
+  - **Test 1: Adding Items to Cart:**
+
+    - Add a sample product to the shopping cart.
+    - **Expected Outcome:**
+      - Product is added to the cart correctly.
+
+  - **Test 2: Removing Items from Cart:**
+
+    - Remove a sample product from the cart.
+    - **Expected Outcome:**
+      - Product is removed from the cart correctly.
+
+  - **Test 3: Cart Total Calculation:**
+    - Add multiple products to the cart and verify total calculation.
+    - **Expected Outcome:**
+      - Total is calculated accurately.
 
 ### 4. Order Process
 
@@ -183,19 +222,19 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - **Test Scenarios:**
   - **Test 1: Complete Order Process:**
     - **Steps:**
-    - Login, add items, and proceed to checkout.
-    - Provide payment and delivery details.
-    - Confirm and place the order.
+      - Proceed to checkout without logging in (assuming no login is required).
+      - Provide payment and delivery details.
+      - Confirm and place the order.
     - **Expected Outcome:**
       - The order should be placed without errors.
-- **Test 2: Verify Order in History:**
-  - **Steps:**
-    - View recent orders in order history.
+  - **Test 2: Verify Order in History:**
+    - **Steps:**
+      - View recent orders in order history.
     - **Expected Outcome:**
       - The recent order should be accurately listed.
-- **Test 3: Modify or Cancel Order:**
-  - **Steps:**
-    - Select a recent order for modification or cancellation.
+  - **Test 3: Modify or Cancel Order:**
+    - **Steps:**
+      - Select a recent order for modification or cancellation.
     - **Expected Outcome:**
       - The user should be able to modify or cancel the order.
 
@@ -207,15 +246,15 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Test 1: Add a Review:**
     - **Steps:**
       - Navigate to a product.
-      - Add a review and rating.
-      - **Expected Outcome:**
-        - The review should be successfully added.
+      - Attempt to add a review and rating.
+    - **Expected Outcome:**
+      - The review feature should not be available without an account.
   - **Test 2: View Product Reviews:**
     - **Steps:**
       - Navigate to a product.
-      - View existing reviews and ratings.
-      - **Expected Outcome:**
-        - Reviews and ratings should be displayed.
+      - Attempt to view existing reviews and ratings.
+    - **Expected Outcome:**
+      - The reviews and ratings should not be accessible without an account.
 
 ### 6. Order Management and Returns
 
@@ -223,23 +262,23 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate the basic functionality of order management and the returns process.
 - **Test Scenarios:**
   - **Test 1: View Order History:**
-  - **Steps:**
-  - Log in to the Amazon account.
-  - Navigate to the order history.
-  - **Expected Outcome:**
-    - The user should be able to view their order history.
-    - **Test 2: Initiate a Return:**
-      - **Steps:**
-        - Log in to the Amazon account.
-        - Select a recent order to initiate a return.
-      - **Expected Outcome:**
-        - The user should be able to initiate a return for the selected order.
+    - **Steps:**
+      - Attempt to log in to an account (assuming no login is required).
+      - Navigate to the order history.
+    - **Expected Outcome:**
+      - The user should be able to view their order history if login is not required.
+  - **Test 2: Initiate a Return:**
+    - **Steps:**
+      - Attempt to log in to an account (assuming no login is required).
+      - Select a recent order to initiate a return.
+    - **Expected Outcome:**
+      - The user should be able to initiate a return for the selected order if login is not required.
   - **Test 3: Track Return Status:**
     - **Steps:**
-      - Log in to the Amazon account.
+      - Attempt to log in to an account (assuming no login is required).
       - Navigate to the returns section.
     - **Expected Outcome:**
-      - The user should be able to track the status of their return.
+      - The user should be able to track the status of their return if login is not required.
 
 ### 7. Social Interaction
 
@@ -249,33 +288,33 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Test 1: Share a Product:**
     - **Steps:**
       - Navigate to a product on Amazon.
-      - Share the product on a social network.
+      - Attempt to share the product on a social network.
     - **Expected Outcome:**
-      - The product should be shared successfully on the selected social network.
+      - The sharing feature should not be available without an account.
   - **Test 2: Recommend a Product:**
     - **Steps:**
       - Navigate to a product on Amazon.
-      - Recommend the product to a friend.
+      - Attempt to recommend the product to a friend.
     - **Expected Outcome:**
-      - The product should be recommended to the selected friend successfully.
+      - The recommendation feature should not be available without an account.
   - **Test 3: Social Media Integration:**
     - **Steps:**
-      - Log in to Amazon using social media credentials.
+      - Attempt to log in to Amazon using social media credentials (assuming no login is required).
       - Perform an action that integrates with a social media platform.
     - **Expected Outcome:**
-      - The action should integrate seamlessly with the connected social media platform.
+      - The action should not be possible without an account.
   - **Test 4: Like or Upvote a Product:**
     - **Steps:**
       - Navigate to a product on Amazon.
-      - Like or upvote the product.
+      - Attempt to like or upvote the product.
     - **Expected Outcome:**
-      - The product should receive a like or upvote.
+      - Liking or upvoting the product should not be possible without an account.
   - **Test 5: Comment on a Product:**
     - **Steps:**
       - Navigate to a product on Amazon.
-      - Comment on the product.
+      - Attempt to comment on the product.
     - **Expected Outcome:**
-      - The comment should be added successfully to the product.
+      - Commenting on the product should not be possible without an account.
 
 ### 8. Support and Assistance
 
@@ -283,102 +322,119 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate basic support and assistance features.
 - **Test Scenarios:**
   - **Test 1: Access Help Pages:**
-    - Access help and assistance pages for users.
+    - **Steps:**
+      - Attempt to access help and assistance pages.
     - **Expected Outcome:**
-      - Help pages accessed successfully.
-  - **Test 2: Contact Support Team:**
-    - Contact the support team through the provided channels.
+      - Help pages should be accessible without an account.
+  - **Test 2: Search for Assistance:**
+    - **Steps:**
+      - Attempt to perform a search for assistance.
     - **Expected Outcome:**
-      - Able to contact the support team.
-  - **Test 3: Search for Assistance:**
-    - Perform a search for assistance on the platform.
+      - Relevant assistance information should be retrieved without an account.
+  - **Test 3: Access FAQ:**
+    - **Steps:**
+      - Attempt to access the Frequently Asked Questions (FAQ) section.
     - **Expected Outcome:**
-      - Relevant assistance information retrieved.
-  - **Test 4: Access FAQ:**
-    - Access Frequently Asked Questions (FAQ) section.
-    - **Expected Outcome:**
-      - Successfully accessed the FAQ section.
-  - **Test 5: Request Live Support:**
-    - Request live support through the designated feature.
-    - **Expected Outcome:**
-      - Live support request initiated successfully.
+      - The FAQ section should be accessible without an account.
 
 ### 9. Security and Privacy
 
-- **Objective:** Validate basic security and privacy features.
-
+- **Objective:**
+  - Validate basic security and privacy features.
 - **Test Scenarios:**
-  - **Steps:**
-    - Check user privacy settings and options.
-  - **Expected Outcome:**
-    - Adequate privacy options are provided.
+  - **Test 1: Privacy Settings:**
+    - **Steps:**
+      - Attempt to check user privacy settings and options.
+    - **Expected Outcome:**
+      - Privacy settings should not be accessible without an account.
 
 ### 10. Personalized Recommendations
 
-- **Objective:** Validate the personalized recommendation system.
+- **Objective:**
+
+  - Validate the personalized recommendation system.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Interact with the platform based on user behavior.
-  - **Expected Outcome:**
-    - Accurate product recommendations are provided.
+  - **Test 1: Interact for Recommendations:**
+    - **Steps:**
+      - Interact with the platform and observe product recommendations.
+    - **Expected Outcome:**
+      - Accurate product recommendations are provided.
 
 ### 11. Wishlist
 
-- **Objective:** Validate wishlist functionality.
+- **Objective:**
+
+  - Validate wishlist functionality.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Add and remove products to/from the wishlist.
-  - **Expected Outcome:**
-    - Products can be added and removed from the wishlist.
+  - **Test 1: Add and Remove from Wishlist:**
+    - **Steps:**
+      - Use the platform to add and remove products to/from the wishlist.
+    - **Expected Outcome:**
+      - Products can be added and removed from the wishlist.
 
 ### 12. Product Comparison
 
-- **Objective:** Validate product comparison functionality.
+- **Objective:**
+
+  - Validate product comparison functionality.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Compare specifications and prices of multiple products.
-  - **Expected Outcome:**
-    - Products can be effectively compared.
+  - **Test 1: Compare Specifications and Prices:**
+    - **Steps:**
+      - Simulate comparing specifications and prices of multiple products.
+    - **Expected Outcome:**
+      - Products can be effectively compared.
 
 ### 13. Real-time Pricing
 
-- **Objective:** Validate real-time pricing updates.
+- **Objective:**
+
+  - Validate real-time pricing updates.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Monitor and verify continuous price updates for products.
-  - **Expected Outcome:**
-    - Prices are accurately and promptly updated in real-time.
+  - **Test 1: Monitor Real-time Price Updates:**
+    - **Steps:**
+      - Monitor and verify continuous price updates for products.
+    - **Expected Outcome:**
+      - Prices are accurately and promptly updated in real-time.
 
 ### 14. Prime Membership
 
-- **Objective:** Validate Prime membership benefits.
+- **Objective:**
+
+  - Validate Prime membership benefits.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Activate Prime membership and use its features.
-  - **Expected Outcome:**
-    - Access to Prime benefits like fast, free delivery.
+  - **Test 1: Access Prime Benefits:**
+    - **Steps:**
+      - Explore and access Prime membership features if available without an account.
+    - **Expected Outcome:**
+      - Understand the benefits available to Prime members.
 
 ### 15. Affiliate Program
 
-- **Objective:** Validate the affiliate program functionality.
+- **Objective:**
+
+  - Validate the affiliate program functionality.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Join the affiliate program and generate affiliate links.
-  - **Expected Outcome:**
-    - Successfully generate affiliate links and earn commissions.
+  - **Test 1: Explore Affiliate Program:**
+    - **Steps:**
+      - Explore information related to the affiliate program.
+    - **Expected Outcome:**
+      - Understand the concept and process of the affiliate program.
 
 ### 16. Special Sale Events
 
-- **Objective:** Validate special sale events functionality.
+- **Objective:**
+
+  - Validate special sale events functionality.
 
 - **Test Scenarios:**
-  - **Steps:**
-    - Participate in special sale events like Black Friday.
-  - **Expected Outcome:**
-    - Access to discounts and promotions during the event.
+  - **Test 1: Explore Special Sale Events:**
+    - **Steps:**
+      - Explore information about special sale events like Black Friday.
+    - **Expected Outcome:**
+      - Understand the concept and details of special sale events.
