@@ -4,8 +4,12 @@ import { assert } from "chai";
 const capabilities = Capabilities.chrome();
 const driver = await new Builder().withCapabilities(capabilities).build();
 
-describe("Search product", () => {
-  it("Should be able to open google Chrome", async () => {
+before(() => {
+  global.driver = driver;
+});
+
+describe("Order process", () => {
+  before(async () => {
     await driver.manage().setTimeouts({ implicit: 2000 });
     await driver.manage().window().setRect({ width: 1920, height: 1080 });
     await driver.get(
@@ -17,6 +21,10 @@ describe("Search product", () => {
       await driver.navigate().refresh();
     }
   });
+  after(async () => {
+    await driver.quit();
+  });
+
   it("Should be able to add item to cart", async () => {
     const addButton = driver.findElement(By.id("add-to-cart-button"));
     await addButton.click();
@@ -34,8 +42,5 @@ describe("Search product", () => {
   it("Should be able to tap on continue", async () => {
     const continueB = await driver.findElement(By.id("continue"));
     await continueB.click();
-  });
-  it("Should be able to quit Chrome", async () => {
-    await driver.quit();
   });
 });

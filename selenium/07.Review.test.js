@@ -8,11 +8,13 @@ before(() => {
   global.driver = driver;
 });
 
-describe("Search product", () => {
+describe("Reviews", () => {
   before(async () => {
     await driver.manage().setTimeouts({ implicit: 2000 });
     await driver.manage().window().setRect({ width: 1920, height: 1080 });
-    await driver.get("https://www.amazon.com/");
+    await driver.get(
+      "https://www.amazon.com/Keychron-Wireless-Bluetooth-Mechanical-Keyboard/dp/B07Y9Y69N7/ref=sr_1_3?crid=3VE26ZVBWYURZ&keywords=keychron&qid=1696339413&sprefix=keycron%2Caps%2C231&sr=8-3&th=1"
+    );
     try {
       await driver.findElement(By.id("nav-hamburger-menu")).isDisplayed();
     } catch {
@@ -22,18 +24,16 @@ describe("Search product", () => {
   after(async () => {
     await driver.quit();
   });
-  it("Should be able to see SearchBox and type 'laptop'", async () => {
-    const searchInput = await driver.findElement(By.id("twotabsearchtextbox"));
-    await searchInput.sendKeys("laptop");
-    await searchInput.sendKeys("\n");
-    await driver.sleep(1000);
-  });
-  it("Should be able to see result section", async () => {
-    const searchResults = await driver.findElements(By.css(".s-result-item"));
-    assert.isTrue(
-      searchResults.length > 0,
-      "There is no results for searched term."
+  it("Should be able to see reviews cards", async () => {
+    const elements = await driver.findElements(
+      By.css('div[data-hook="review"]')
     );
+    for (const element of elements) {
+      const elementId = await element.getAttribute("id");
+      const review = await driver.findElement(
+        By.id(`${elementId}-review-card`)
+      );
+      await review.isDisplayed();
+    }
   });
-  it("Should be able to quit Chrome", async () => {});
 });

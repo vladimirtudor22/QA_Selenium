@@ -4,8 +4,12 @@ import { assert } from "chai";
 const capabilities = Capabilities.chrome();
 const driver = await new Builder().withCapabilities(capabilities).build();
 
+before(() => {
+  global.driver = driver;
+});
+
 describe("Apply Filters to search", () => {
-  it("Should be able to open google Chrome", async () => {
+  before(async () => {
     await driver.manage().setTimeouts({ implicit: 2000 });
     await driver.manage().window().setRect({ width: 1920, height: 1080 });
     await driver.get("https://www.amazon.com/");
@@ -14,6 +18,9 @@ describe("Apply Filters to search", () => {
     } catch {
       await driver.navigate().refresh();
     }
+  });
+  after(async () => {
+    await driver.quit();
   });
   it("Should be able to see SearchBox and type 'laptop'", async () => {
     const searchInput = await driver.findElement(By.id("twotabsearchtextbox"));
@@ -48,8 +55,5 @@ describe("Apply Filters to search", () => {
       )
       .click();
     await driver.sleep(1000);
-  });
-  it("Should be able to quit Chrome", async () => {
-    await driver.quit();
   });
 });
