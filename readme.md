@@ -133,7 +133,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Order Process](#4-order-process)
 - [Reviews and Ratings](#5-reviews-and-ratings)
 - [Order Management and Returns](#6-order-management-and-returns)
-- [Reviews and Ratings](#7-reviews-and-ratings)
+- [Social Interaction](#7-social-interaction)
 
 ## Test Plans
 
@@ -236,20 +236,38 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
     - **Expected Outcome:**
       - The user should be able to track the status of their return.
 
-### 7. Reviews and Ratings
+### 7. Social Interaction
 
 - **Objective:**
-  - Validate the functionality of adding a review and viewing existing reviews.
+- Validate the basic functionality of social interaction options.
 - **Test Scenarios:**
-  - **Test 1: Add a Review:**
+  - **Test 1: Share a Product:**
     - **Steps:**
-      - Navigate to a product.
-      - Add a review and rating.
+      - Navigate to a product on Amazon.
+      - Share the product on a social network.
     - **Expected Outcome:**
-      - The review should be successfully added.
-  - **Test 2: View Product Reviews:**
+      - The product should be shared successfully on the selected social network.
+  - **Test 2: Recommend a Product:**
     - **Steps:**
-      - Navigate to a product.
-      - View existing reviews and ratings.
+      - Navigate to a product on Amazon.
+      - Recommend the product to a friend.
     - **Expected Outcome:**
-      - Reviews and ratings should be displayed.
+      - The product should be recommended to the selected friend successfully.
+  - **Test 3: Social Media Integration:**
+    - **Steps:**
+      - Log in to Amazon using social media credentials.
+      - Perform an action that integrates with a social media platform.
+    - **Expected Outcome:**
+      - The action should integrate seamlessly with the connected social media platform.
+  - **Test 4: Like or Upvote a Product:**
+    - **Steps:**
+      - Navigate to a product on Amazon.
+      - Like or upvote the product.
+    - **Expected Outcome:**
+      - The product should receive a like or upvote.
+  - **Test 5: Comment on a Product:**
+    - **Steps:**
+      - Navigate to a product on Amazon.
+      - Comment on the product.
+    - **Expected Outcome:**
+      - The comment should be added successfully to the product.
