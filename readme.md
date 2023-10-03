@@ -417,10 +417,12 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate special sale events functionality.
 
 - **Test Scenarios:**
+
   - Explore information about special sale events like Black Friday.
   - **Expected Outcome:**
-    - Understand the concept and details of special sale events.
+  - Understand the concept and details of special sale events.
 
-> ℹ️ [INFORMATION] 📝🚧 **Note on Test Plans**
+> [!NOTE]
+> 📝🚧 **Note on Test Plans**
 >
 > Please note that Test Plans requiring an account, registration, captcha validations, or any actions related to authentication are marked as **work-in-progress (WIP)** and have been left in the state where these limitations were encountered. If you wish to complete these Test Plans or add additional tests in these areas, we recommend doing so to ensure comprehensive test coverage for your application. 🚀✨
