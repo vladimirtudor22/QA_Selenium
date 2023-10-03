@@ -1,6 +1,12 @@
 ## Document Content
 
 [Runtime Environment Configuration](#runtime-environment-configuration)
+[Test Scenarios](#test-scenarios)
+[Application Features](#application-features)
+
+# Automated Testing Demo using Selenium WebDriver
+
+In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names.
 
 ## Runtime Environment Configuration
 
@@ -23,10 +29,6 @@ To ensure smooth setup and functionality, follow these steps:
 **Note**: This project was created and tested on macOS.
 
 Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
-
-# Automated Testing Demo using Selenium WebDriver
-
-In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names.
 
 ## Test Scenarios
 
