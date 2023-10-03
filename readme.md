@@ -218,19 +218,19 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - **Test Scenarios:**
   - **Test 1: View Order History:**
   - **Steps:**
-    - Log in to the Amazon account.
-    - Navigate to the order history.
+  - Log in to the Amazon account.
+  - Navigate to the order history.
   - **Expected Outcome:**
     - The user should be able to view their order history.
-  - **Test 2: Initiate a Return:**
-  - **Steps:**
-    - Log in to the Amazon account.
-    - Select a recent order to initiate a return.
-  - **Expected Outcome:**
-    - The user should be able to initiate a return for the selected order.
+    - **Test 2: Initiate a Return:**
+      - **Steps:**
+        - Log in to the Amazon account.
+        - Select a recent order to initiate a return.
+      - **Expected Outcome:**
+        - The user should be able to initiate a return for the selected order.
   - **Test 3: Track Return Status:**
-  - **Steps:**
-    - Log in to the Amazon account.
-    - Navigate to the returns section.
-  - **Expected Outcome:**
-    - The user should be able to track the status of their return.
+    - **Steps:**
+      - Log in to the Amazon account.
+      - Navigate to the returns section.
+    - **Expected Outcome:**
+      - The user should be able to track the status of their return.
