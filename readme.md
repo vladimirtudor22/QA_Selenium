@@ -6,104 +6,108 @@
 
 # Automated Testing Demo using Selenium WebDriver
 
-In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names.
+In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names. 💻✨🚀
 
 ## Runtime Environment Configuration
 
-To ensure smooth setup and functionality, follow these steps:
+To ensure smooth setup and functionality, follow these steps: 🛠️👇
 
-1. **Install Google Chrome**: Ensure you have Google Chrome browser installed.
+1. **Install Google Chrome**: Ensure you have Google Chrome browser installed. ⬇️🌐
 
 2. **Run the following command to install necessary dependencies:**
 
-   ```bash
-   npm install --save-dev
-   ```
+- Execute the command below in your terminal. 💻⬇️
+
+  ```bash
+  npm install --save-dev
+  ```
 
 3. **Run the following command to execute the tests:**
 
-   ```bash
-   npm test
-   ```
+- Execute the command below in your terminal. 💻⬇️
 
-**Note**: This project was created and tested on macOS.
+```bash
+npm test
+```
+
+**Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
 
 Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
 
 ## Application Features
 
-1. **Search and Navigation:**
+1. **Search and Navigation 🔍**
 
    - Functionality to search for products.
    - Filtering and sorting of search results.
    - Navigating through pages and product categories.
 
-2. **Account Management:**
+2. **Account Management 👤**
 
    - Authentication and registration.
    - Account management process (address, payment details, delivery options).
 
-3. **Shopping Cart:**
+3. **Shopping Cart 🛒**
 
    - Adding and removing items from the shopping cart.
    - Calculation of the total and taxes.
    - Order completion process.
 
-4. **Order Process:**
+4. **Order Process 📦**
 
    - Completing payment details and delivery address.
    - Choosing delivery options.
    - Confirming and placing the order.
 
-5. **Reviews and Ratings:**
+5. **Reviews and Ratings ⭐**
 
    - Adding and viewing product reviews.
    - Product and supplier rating system.
 
-6. **Order Management and Returns:**
+6. **Order Management and Returns 🔄**
 
    - Managing previous orders.
    - Product return process.
 
-7. **Social Interaction:**
+7. **Social Interaction 📣**
 
    - Options for sharing and recommending products on social networks.
 
-8. **Support and Assistance:**
+8. **Support and Assistance ❓**
 
    - Accessing help and support pages for users.
    - Contacting and communicating with the support team.
 
-9. **Security and Privacy:**
+9. **Security and Privacy 🔒**
 
    - Verifying security measures for user data.
    - Management of passwords and secure authentication.
 
-10. **Personalized Recommendations:**
+10. **Personalized Recommendations 💡**
 
 - A personalized recommendation system that suggests products to users based on their previous browsing and purchasing behavior.
 
-11. **Wishlist:**
+11. **Wishlist ❤️**
 
 - Ability for users to save their favorite products in a wishlist for future purchases.
 
-12. **Product Comparison:**
+12. **Product Comparison ⚖️**
 
 - Functionality that allows users to compare specifications and prices of multiple products.
 
-13. **Real-time Pricing:**
+13. **Real-time Pricing 💲**
 
 - Continuous updates of product prices to reflect current offers and fluctuations.
 
-14. **Prime Membership:**
+14. **Prime Membership 👑**
 
 - Subscription offering special advantages to users, such as fast and free delivery for eligible products.
 
-15. **Affiliate Program:**
+15. **Affiliate Program 💼**
 
 - Opportunity for users to become affiliates and earn commissions from sales generated through affiliate links.
 
-16. **Special Sale Events:**
+16. **Special Sale Events 🎉**
 
 - Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
 
