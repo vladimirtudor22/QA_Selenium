@@ -76,40 +76,36 @@ Feel free to reach out if you have any questions or need further assistance! ðŸš
    - Accessing help and support pages for users.
    - Contacting and communicating with the support team.
 
-9. **Performance and Loading:**
+9. **Security and Privacy:**
 
-   - Page and functionality loading time.
+   - Verifying security measures for user data.
+   - Management of passwords and secure authentication.
 
-10. **Security and Privacy:**
-
-    - Verifying security measures for user data.
-    - Management of passwords and secure authentication.
-
-11. **Personalized Recommendations:**
+10. **Personalized Recommendations:**
 
 - A personalized recommendation system that suggests products to users based on their previous browsing and purchasing behavior.
 
-12. **Wishlist:**
+11. **Wishlist:**
 
 - Ability for users to save their favorite products in a wishlist for future purchases.
 
-13. **Product Comparison:**
+12. **Product Comparison:**
 
 - Functionality that allows users to compare specifications and prices of multiple products.
 
-14. **Real-time Pricing:**
+13. **Real-time Pricing:**
 
 - Continuous updates of product prices to reflect current offers and fluctuations.
 
-15. **Prime Membership:**
+14. **Prime Membership:**
 
 - Subscription offering special advantages to users, such as fast and free delivery for eligible products.
 
-16. **Affiliate Program:**
+15. **Affiliate Program:**
 
 - Opportunity for users to become affiliates and earn commissions from sales generated through affiliate links.
 
-17. **Special Sale Events:**
+16. **Special Sale Events:**
 
 - Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
 
@@ -135,6 +131,14 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Order Management and Returns](#6-order-management-and-returns)
 - [Social Interaction](#7-social-interaction)
 - [Support and Assistance](#8-support-and-assistance)
+- [Security and Privacy](#9-security-and-privacy)
+  [Personalized Recommendations](#10-personalized-recommendations)
+  [Wishlist](#11-wishlist)
+  [Product Comparison](#12-product-comparison)
+  [Real-time Pricing](#13-real-time-pricing)
+  [Prime Membership](#14-prime-membership)
+  [Affiliate Program](#15-affiliate-program)
+  [Special Sale Events](#16-special-sale-events)
 
 ## Test Plans
 
@@ -298,3 +302,83 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
     - Request live support through the designated feature.
     - **Expected Outcome:**
       - Live support request initiated successfully.
+
+### 9. Security and Privacy
+
+- **Objective:** Validate basic security and privacy features.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Check user privacy settings and options.
+  - **Expected Outcome:**
+    - Adequate privacy options are provided.
+
+### 10. Personalized Recommendations
+
+- **Objective:** Validate the personalized recommendation system.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Interact with the platform based on user behavior.
+  - **Expected Outcome:**
+    - Accurate product recommendations are provided.
+
+### 11. Wishlist
+
+- **Objective:** Validate wishlist functionality.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Add and remove products to/from the wishlist.
+  - **Expected Outcome:**
+    - Products can be added and removed from the wishlist.
+
+### 12. Product Comparison
+
+- **Objective:** Validate product comparison functionality.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Compare specifications and prices of multiple products.
+  - **Expected Outcome:**
+    - Products can be effectively compared.
+
+### 13. Real-time Pricing
+
+- **Objective:** Validate real-time pricing updates.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Monitor and verify continuous price updates for products.
+  - **Expected Outcome:**
+    - Prices are accurately and promptly updated in real-time.
+
+### 14. Prime Membership
+
+- **Objective:** Validate Prime membership benefits.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Activate Prime membership and use its features.
+  - **Expected Outcome:**
+    - Access to Prime benefits like fast, free delivery.
+
+### 15. Affiliate Program
+
+- **Objective:** Validate the affiliate program functionality.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Join the affiliate program and generate affiliate links.
+  - **Expected Outcome:**
+    - Successfully generate affiliate links and earn commissions.
+
+### 16. Special Sale Events
+
+- **Objective:** Validate special sale events functionality.
+
+- **Test Scenarios:**
+  - **Steps:**
+    - Participate in special sale events like Black Friday.
+  - **Expected Outcome:**
+    - Access to discounts and promotions during the event.
