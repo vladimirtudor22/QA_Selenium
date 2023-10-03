@@ -2,8 +2,6 @@
 
 [Runtime Environment Configuration](#runtime-environment-configuration)
 
-[Test Scenarios](#test-scenarios)
-
 [Application Features](#application-features)
 
 # Automated Testing Demo using Selenium WebDriver
@@ -31,69 +29,6 @@ To ensure smooth setup and functionality, follow these steps:
 **Note**: This project was created and tested on macOS.
 
 Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
-
-## Test Scenarios
-
-### Shopping Cart Functionality
-
-- Verify that a product can be added to the cart.
-- Confirm that the quantity of a product can be modified.
-- Ensure that a product can be removed from the cart.
-
-### Category-based Search
-
-- Verify the ability to open the category menu.
-- Select a category and a subcategory.
-- Confirm the existence of a product within the chosen category.
-  > [!NOTE]
-  > Highlights information that users should take into account, even when skimming.
-
-### Product Variant Selection
-
-- Choose a phone case for its various options, particularly different colors.
-- Verify the selection of all available color options.
-
-### Search Bar Functionality
-
-- Input "Forza Horizon 5" into the search field.
-- Confirm the appearance of a relevant result, specifically the game "Forza Horizon 5".
-
-### Placing an Order
-
-- Select a product and click on the "Buy Now" button.
-- Upon clicking, redirect to the login page.
-- Press "Create an Account" and complete the form.
-- Refrain from pressing the button to avoid creating an account on the platform.
-
-These functionalities were chosen to comprehensively cover various aspects of the Amazon.com platform while ensuring non-intrusive testing.
-
-> [!NOTE]
->
-> ## Comprehensive Test Scenario
->
-> To effectively test this functionality, we have devised the following comprehensive scenario:
->
-> 1.  **Product Selection and Initiation of Purchase**
->
-> - Select a product and click on the "Buy Now" button.
->
-> 2.  **Login Screen Activation and Account Creation**
->
-> - The login screen is triggered, click on "Create an Account".
->
-> 3.  **Form Completion and Registration**
->
-> - Complete the required form and click on the register button.
->
-> 4.  **Account Creation and Provision of Details**
->
-> - An account is successfully created, enabling the addition of shipping and billing information.
->
-> 5.  **Order Placement**
->
-> - Proceed to place the order.
->
-> > However, it's important to note that this scenario can not be executed seamlessly. After clicking the create button, there is an additional step requiring the resolution of a captcha code.
 
 ## Application Features
 
@@ -175,3 +110,72 @@ These functionalities were chosen to comprehensively cover various aspects of th
 17. **Special Sale Events:**
 
 - Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
+
+# Automated Testing Plan for Amazon.com
+
+## Objective
+
+The testing plan aims to ensure the quality of key functionalities on the Amazon.com platform by identifying and executing relevant test scenarios.
+
+## Testing Goals
+
+- Validate the accuracy and functionality of identified features.
+- Ensure efficient navigation and a pleasant user experience.
+- Validate the security and privacy of user data.
+
+1. **Search and Navigation**
+
+- **Objective:**
+
+  - Validate the functionality to search for products.
+  - Verify the filtering and sorting of search results.
+  - Confirm smooth navigation through pages and product categories.
+
+- **Test Scenarios:**
+  - Test the search functionality.
+  - Test filtering and sorting options.
+  - Test navigation through different categories.
+
+2. **Account Management**
+
+- **Objective:**
+  - Validate authentication and registration processes.
+  - Verify the account management process including address, payment details, and delivery options.
+- **Test Scenarios:**
+  - Test account authentication.
+  - Test account registration.
+  - Test updating account information.
+
+3. **Shopping Cart:**
+
+- **Objective:**
+  - Validate adding and removing items from the shopping cart.
+  - Verify the calculation of the total and taxes.
+  - Confirm the order completion process.
+- **Test Scenarios:**
+  - Test adding items to the shopping cart.
+  - Test removing items from the shopping cart.
+  - Test cart total calculation.
+
+4. **Order Process**
+
+- **Objective:**
+  - Validate the seamless order process from selection to placement.
+- **Test Scenarios:**
+- **Test 1: Complete Order Process:**
+- **Steps:**
+  - Login, add items, and proceed to checkout.
+  - Provide payment and delivery details.
+  - Confirm and place the order.
+  - Expected Outcome:
+  - The order should be placed without errors.
+- **Test 2: Verify Order in History:**
+- **Steps:**
+  - View recent orders in order history.
+  - Expected Outcome:
+  - The recent order should be accurately listed.
+- **Test 3: Modify or Cancel Order:**
+- **Steps:**
+  - Select a recent order for modification or cancellation.
+  - Expected Outcome:
+  - The user should be able to modify or cancel the order.
