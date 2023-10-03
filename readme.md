@@ -133,6 +133,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Order Process](#4-order-process)
 - [Reviews and Ratings](#5-reviews-and-ratings)
 - [Order Management and Returns](#6-order-management-and-returns)
+- [Reviews and Ratings](#7-reviews-and-ratings)
 
 ## Test Plans
 
@@ -234,3 +235,21 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
       - Navigate to the returns section.
     - **Expected Outcome:**
       - The user should be able to track the status of their return.
+
+### 7. Reviews and Ratings
+
+- **Objective:**
+- Validate the functionality of adding a review and viewing existing reviews.
+  - **Test Scenarios:**
+    - **Test 1: Add a Review:**
+      - **Steps:**
+        - Navigate to a product.
+        - Add a review and rating.
+      - **Expected Outcome:**
+        - The review should be successfully added.
+    - **Test 2: View Product Reviews:**
+      - **Steps:**
+        - Navigate to a product.
+        - View existing reviews and ratings.
+      - **Expected Outcome:**
+        - Reviews and ratings should be displayed.
