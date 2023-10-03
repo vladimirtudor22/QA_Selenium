@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "for file in ./specs/*.test.js; do mocha $file --timeout 10000; done"
+    "selenium": "for file in ./selenium/*.test.js; do mocha $file --timeout 10000; done"
   },
   "type": "module",
   "name": "selenium-test",
