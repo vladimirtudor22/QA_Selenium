@@ -190,3 +190,21 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
     - Select a recent order for modification or cancellation.
     - Expected Outcome:
     - The user should be able to modify or cancel the order.
+
+### 5. Reviews and Ratings
+
+- **Objective:**
+  - Validate the basic functionality of the Reviews and Ratings system.
+- **Test Scenarios:**
+  - **Test 1: Add a Review:**
+    - **Steps:**
+    - Navigate to a product.
+    - Add a review and rating.
+    - Expected Outcome:
+    - The review should be successfully added.
+  - **Test 2: View Product Reviews:**
+    - **Steps:**
+      - Navigate to a product.
+      - View existing reviews and ratings.
+      - Expected Outcome:
+      - Reviews and ratings should be displayed.
