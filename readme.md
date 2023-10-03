@@ -1,9 +1,3 @@
-## Document Content
-
-- [Runtime Environment Configuration](#runtime-environment-configuration)
-- [Application Features](#application-features)
-- [Automated Testing Plan for Amazon.com](#automated-testing-plan-for-amazoncom)
-
 # Automated Testing Demo using Selenium WebDriver
 
 In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names. 💻✨🚀
@@ -12,25 +6,25 @@ In this automated testing demo utilizing Selenium WebDriver, I have chosen the A
 
 To ensure smooth setup and functionality, follow these steps: 🛠️👇
 
-1. **Install Google Chrome**: Ensure you have Google Chrome browser installed. ⬇️🌐
+1. **Install Google Chrome**: Make sure you have Google Chrome browser installed. ⬇️🌐
 
 2. **Run the following command to install necessary dependencies:**
 
-- Execute the command below in your terminal. 💻⬇️
+   - Execute the command below in your terminal. 💻⬇️
 
-  ```bash
-  npm install --save-dev
-  ```
+     ```bash
+     npm install --save-dev
+     ```
 
 3. **Run the following command to execute the tests:**
 
-- Execute the command below in your terminal. 💻⬇️
+   - Execute the command below in your terminal. 💻⬇️
 
-```bash
-npm test
-```
+     ```bash
+     npm test
+     ```
 
-**Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
+   **Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
 
 Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
 
@@ -115,13 +109,13 @@ Feel free to reach out if you have any questions or need further assistance! �
 
 ## Objective
 
-The testing plan aims to ensure the quality of key functionalities on the Amazon.com platform by identifying and executing relevant test scenarios.
+The testing plan aims to ensure the quality of key functionalities on the Amazon.com platform by identifying and executing relevant test scenarios. 🧪📊🛒🔍👩‍💻
 
 ## Testing Goals
 
-- Validate the accuracy and functionality of identified features.
-- Ensure efficient navigation and a pleasant user experience.
-- Validate the security and privacy of user data.
+- Validate the accuracy and functionality of identified features. ✅🔍
+- Ensure efficient navigation and a pleasant user experience. 🚀😊
+- Validate the security and privacy of user data. 🔒🔐🛡️
 
 ## Content
 
