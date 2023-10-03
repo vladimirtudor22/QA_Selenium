@@ -119,6 +119,12 @@ Feel free to reach out if you have any questions or need further assistance! ðŸš
 
 The testing plan aims to ensure the quality of key functionalities on the Amazon.com platform by identifying and executing relevant test scenarios.
 
+## Testing Goals
+
+- Validate the accuracy and functionality of identified features.
+- Ensure efficient navigation and a pleasant user experience.
+- Validate the security and privacy of user data.
+
 ## Content
 
 - [Search and Navigation](#1-search-and-navigation)
@@ -126,11 +132,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Shopping Cart](#3-shopping-cart)
 - [Order Process](#4-order-process)
 
-## Testing Goals
-
-- Validate the accuracy and functionality of identified features.
-- Ensure efficient navigation and a pleasant user experience.
-- Validate the security and privacy of user data.
+## Test Plans
 
 ### 1. Search and Navigation
 
