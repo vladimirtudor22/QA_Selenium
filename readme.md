@@ -132,13 +132,13 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Social Interaction](#7-social-interaction)
 - [Support and Assistance](#8-support-and-assistance)
 - [Security and Privacy](#9-security-and-privacy)
-  [Personalized Recommendations](#10-personalized-recommendations)
-  [Wishlist](#11-wishlist)
-  [Product Comparison](#12-product-comparison)
-  [Real-time Pricing](#13-real-time-pricing)
-  [Prime Membership](#14-prime-membership)
-  [Affiliate Program](#15-affiliate-program)
-  [Special Sale Events](#16-special-sale-events)
+- [Personalized Recommendations](#10-personalized-recommendations)
+- [Wishlist](#11-wishlist)
+- [Product Comparison](#12-product-comparison)
+- [Real-time Pricing](#13-real-time-pricing)
+- [Prime Membership](#14-prime-membership)
+- [Affiliate Program](#15-affiliate-program)
+- [Special Sale Events](#16-special-sale-events)
 
 ## Test Plans
 
