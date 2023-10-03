@@ -1,10 +1,8 @@
 ## Document Content
 
-[Runtime Environment Configuration](#runtime-environment-configuration)
-
-[Application Features](#application-features)
-
-[Automated Testing Plan for Amazon.com](#automated-testing-plan-for-amazoncom)
+- [Runtime Environment Configuration](#runtime-environment-configuration)
+- [Application Features](#application-features)
+- [Automated Testing Plan for Amazon.com](#automated-testing-plan-for-amazoncom)
 
 # Automated Testing Demo using Selenium WebDriver
 
