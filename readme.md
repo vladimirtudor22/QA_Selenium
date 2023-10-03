@@ -4,6 +4,8 @@
 
 [Application Features](#application-features)
 
+[Automated Testing Plan for Amazon.com](#automated-testing-plan-for-amazoncom)
+
 # Automated Testing Demo using Selenium WebDriver
 
 In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names.
