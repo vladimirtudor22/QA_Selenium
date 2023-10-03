@@ -134,6 +134,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Reviews and Ratings](#5-reviews-and-ratings)
 - [Order Management and Returns](#6-order-management-and-returns)
 - [Social Interaction](#7-social-interaction)
+- [Support and Assistance](#8-support-and-assistance)
 
 ## Test Plans
 
@@ -271,3 +272,29 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
       - Comment on the product.
     - **Expected Outcome:**
       - The comment should be added successfully to the product.
+
+### 8. Support and Assistance
+
+- **Objective:**
+  - Validate basic support and assistance features.
+- **Test Scenarios:**
+  - **Test 1: Access Help Pages:**
+    - Access help and assistance pages for users.
+    - **Expected Outcome:**
+      - Help pages accessed successfully.
+  - **Test 2: Contact Support Team:**
+    - Contact the support team through the provided channels.
+    - **Expected Outcome:**
+      - Able to contact the support team.
+  - **Test 3: Search for Assistance:**
+    - Perform a search for assistance on the platform.
+    - **Expected Outcome:**
+      - Relevant assistance information retrieved.
+  - **Test 4: Access FAQ:**
+    - Access Frequently Asked Questions (FAQ) section.
+    - **Expected Outcome:**
+      - Successfully accessed the FAQ section.
+  - **Test 5: Request Live Support:**
+    - Request live support through the designated feature.
+    - **Expected Outcome:**
+      - Live support request initiated successfully.
