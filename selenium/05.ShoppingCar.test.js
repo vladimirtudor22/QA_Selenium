@@ -23,6 +23,9 @@ describe("Create Account", () => {
   it("Should be able to open cart", async () => {
     await driver.sleep(500);
     await driver.findElement(By.id("nav-cart-count")).click();
+    const divElements = await driver.findElements(By.css("div[data-itemid]"));
+    const dataItemId = await divElements[0].getAttribute("data-itemid");
+    await driver.findElement(By.name(`submit.delete.${dataItemId}`)).click();
   });
   it("Should be able to add multiple products to cart", async () => {
     await driver.get(
