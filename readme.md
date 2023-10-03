@@ -132,6 +132,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - [Shopping Cart](#3-shopping-cart)
 - [Order Process](#4-order-process)
 - [Reviews and Ratings](#5-reviews-and-ratings)
+- [Order Management and Returns](#6-order-management-and-returns)
 
 ## Test Plans
 
@@ -179,18 +180,18 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
     - Login, add items, and proceed to checkout.
     - Provide payment and delivery details.
     - Confirm and place the order.
-    - Expected Outcome:
-    - The order should be placed without errors.
+    - **Expected Outcome:**
+      - The order should be placed without errors.
 - **Test 2: Verify Order in History:**
   - **Steps:**
     - View recent orders in order history.
-    - Expected Outcome:
-    - The recent order should be accurately listed.
+    - **Expected Outcome:**
+      - The recent order should be accurately listed.
 - **Test 3: Modify or Cancel Order:**
   - **Steps:**
     - Select a recent order for modification or cancellation.
-    - Expected Outcome:
-    - The user should be able to modify or cancel the order.
+    - **Expected Outcome:**
+      - The user should be able to modify or cancel the order.
 
 ### 5. Reviews and Ratings
 
@@ -201,11 +202,35 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
     - **Steps:**
       - Navigate to a product.
       - Add a review and rating.
-      - Expected Outcome:
-      - The review should be successfully added.
+      - **Expected Outcome:**
+        - The review should be successfully added.
   - **Test 2: View Product Reviews:**
     - **Steps:**
       - Navigate to a product.
       - View existing reviews and ratings.
-      - Expected Outcome:
-      - Reviews and ratings should be displayed.
+      - **Expected Outcome:**
+        - Reviews and ratings should be displayed.
+
+### 6. Order Management and Returns
+
+- **Objective:**
+  - Validate the basic functionality of order management and the returns process.
+- **Test Scenarios:**
+  - **Test 1: View Order History:**
+  - **Steps:**
+    - Log in to the Amazon account.
+    - Navigate to the order history.
+  - **Expected Outcome:**
+    - The user should be able to view their order history.
+  - **Test 2: Initiate a Return:**
+  - **Steps:**
+    - Log in to the Amazon account.
+    - Select a recent order to initiate a return.
+  - **Expected Outcome:**
+    - The user should be able to initiate a return for the selected order.
+  - **Test 3: Track Return Status:**
+  - **Steps:**
+    - Log in to the Amazon account.
+    - Navigate to the returns section.
+  - **Expected Outcome:**
+    - The user should be able to track the status of their return.
