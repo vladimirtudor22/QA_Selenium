@@ -355,11 +355,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate the personalized recommendation system.
 
 - **Test Scenarios:**
-  - **Test 1: Interact for Recommendations:**
-    - **Steps:**
-      - Interact with the platform and observe product recommendations.
-    - **Expected Outcome:**
-      - Accurate product recommendations are provided.
+  - Interact with the platform and observe product recommendations.
+  - **Expected Outcome:**
+    - Accurate product recommendations are provided.
 
 ### 11. Wishlist
 
@@ -368,11 +366,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate wishlist functionality.
 
 - **Test Scenarios:**
-  - **Test 1: Add and Remove from Wishlist:**
-    - **Steps:**
-      - Use the platform to add and remove products to/from the wishlist.
-    - **Expected Outcome:**
-      - Products can be added and removed from the wishlist.
+  - Use the platform to add and remove products to/from the wishlist.
+  - **Expected Outcome:**
+    - Products can be added and removed from the wishlist.
 
 ### 12. Product Comparison
 
@@ -381,11 +377,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate product comparison functionality.
 
 - **Test Scenarios:**
-  - **Test 1: Compare Specifications and Prices:**
-    - **Steps:**
-      - Simulate comparing specifications and prices of multiple products.
-    - **Expected Outcome:**
-      - Products can be effectively compared.
+  - Simulate comparing specifications and prices of multiple products.
+  - **Expected Outcome:**
+    - Products can be effectively compared.
 
 ### 13. Real-time Pricing
 
@@ -394,11 +388,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate real-time pricing updates.
 
 - **Test Scenarios:**
-  - **Test 1: Monitor Real-time Price Updates:**
-    - **Steps:**
-      - Monitor and verify continuous price updates for products.
-    - **Expected Outcome:**
-      - Prices are accurately and promptly updated in real-time.
+  - Monitor and verify continuous price updates for products.
+  - **Expected Outcome:**
+    - Prices are accurately and promptly updated in real-time.
 
 ### 14. Prime Membership
 
@@ -407,11 +399,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate Prime membership benefits.
 
 - **Test Scenarios:**
-  - **Test 1: Access Prime Benefits:**
-    - **Steps:**
-      - Explore and access Prime membership features if available without an account.
-    - **Expected Outcome:**
-      - Understand the benefits available to Prime members.
+  - Explore and access Prime membership features if available without an account.
+  - **Expected Outcome:**
+    - Understand the benefits available to Prime members.
 
 ### 15. Affiliate Program
 
@@ -420,11 +410,9 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate the affiliate program functionality.
 
 - **Test Scenarios:**
-  - **Test 1: Explore Affiliate Program:**
-    - **Steps:**
-      - Explore information related to the affiliate program.
-    - **Expected Outcome:**
-      - Understand the concept and process of the affiliate program.
+  - Explore information related to the affiliate program.
+  - **Expected Outcome:**
+    - Understand the concept and process of the affiliate program.
 
 ### 16. Special Sale Events
 
@@ -433,8 +421,6 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Validate special sale events functionality.
 
 - **Test Scenarios:**
-  - **Test 1: Explore Special Sale Events:**
-    - **Steps:**
-      - Explore information about special sale events like Black Friday.
-    - **Expected Outcome:**
-      - Understand the concept and details of special sale events.
+  - Explore information about special sale events like Black Friday.
+  - **Expected Outcome:**
+    - Understand the concept and details of special sale events.
