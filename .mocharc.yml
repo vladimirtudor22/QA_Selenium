@@ -1,4 +1,4 @@
 slow: 6000
-timeout: 20000
+# timeout: 20000
 reporterOptions:
   output: "./report.xml"
