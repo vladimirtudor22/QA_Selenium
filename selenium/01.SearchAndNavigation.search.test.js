@@ -35,5 +35,4 @@ describe("Search product", () => {
       "There is no results for searched term."
     );
   });
-  it("Should be able to quit Chrome", async () => {});
 });
