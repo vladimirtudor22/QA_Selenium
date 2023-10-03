@@ -11,10 +11,8 @@ describe("Apply Filters to search", () => {
     await driver.get("https://www.amazon.com/");
     try {
       await driver.findElement(By.id("nav-hamburger-menu")).isDisplayed();
-      console.log("da");
     } catch {
       await driver.navigate().refresh();
-      console.log("nu");
     }
   });
   it("Should be able to see SearchBox and type 'laptop'", async () => {
