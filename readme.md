@@ -144,5 +144,34 @@ These functionalities were chosen to comprehensively cover various aspects of th
    - Page and functionality loading time.
 
 10. **Security and Privacy:**
+
     - Verifying security measures for user data.
     - Management of passwords and secure authentication.
+
+11. **Personalized Recommendations:**
+
+- A personalized recommendation system that suggests products to users based on their previous browsing and purchasing behavior.
+
+12. **Wishlist:**
+
+- Ability for users to save their favorite products in a wishlist for future purchases.
+
+13. **Product Comparison:**
+
+- Functionality that allows users to compare specifications and prices of multiple products.
+
+14. **Real-time Pricing:**
+
+- Continuous updates of product prices to reflect current offers and fluctuations.
+
+15. **Prime Membership:**
+
+- Subscription offering special advantages to users, such as fast and free delivery for eligible products.
+
+16. **Affiliate Program:**
+
+- Opportunity for users to become affiliates and earn commissions from sales generated through affiliate links.
+
+17. **Special Sale Events:**
+
+- Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
