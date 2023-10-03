@@ -121,10 +121,10 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 
 ## Content
 
-[Search and Navigation](#1-search-and-navigation)
-[Account Management](#2-account-management)
-[Shopping Cart](#3-shopping-cart)
-[Order Process](#4-order-process)
+- [Search and Navigation](#1-search-and-navigation)
+- [Account Management](#2-account-management)
+- [Shopping Cart](#3-shopping-cart)
+- [Order Process](#4-order-process)
 
 ## Testing Goals
 
