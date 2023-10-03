@@ -239,17 +239,17 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 ### 7. Reviews and Ratings
 
 - **Objective:**
-- Validate the functionality of adding a review and viewing existing reviews.
-  - **Test Scenarios:**
-    - **Test 1: Add a Review:**
-      - **Steps:**
-        - Navigate to a product.
-        - Add a review and rating.
-      - **Expected Outcome:**
-        - The review should be successfully added.
-    - **Test 2: View Product Reviews:**
-      - **Steps:**
-        - Navigate to a product.
-        - View existing reviews and ratings.
-      - **Expected Outcome:**
-        - Reviews and ratings should be displayed.
+  - Validate the functionality of adding a review and viewing existing reviews.
+- **Test Scenarios:**
+  - **Test 1: Add a Review:**
+    - **Steps:**
+      - Navigate to a product.
+      - Add a review and rating.
+    - **Expected Outcome:**
+      - The review should be successfully added.
+  - **Test 2: View Product Reviews:**
+    - **Steps:**
+      - Navigate to a product.
+      - View existing reviews and ratings.
+    - **Expected Outcome:**
+      - Reviews and ratings should be displayed.
