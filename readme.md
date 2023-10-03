@@ -423,7 +423,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - Understand the concept and details of special sale events.
 
 > [!NOTE]
-> 📝🚧 **Note on Test Plans**
+> 📝 **Note on Test Plans** 🚧
 
 > For the purpose of my interview demo, please be aware that Test Plans involving account creation, registration, captcha validations, or any actions related to authentication have been marked as **work-in-progress (WIP)**. I have intentionally left them in the state where these limitations were encountered.🧪🔍👩‍💻
 >
