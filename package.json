@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "selenium": "for file in ./selenium/*.test.js; do mocha $file --timeout 25000; done"
+    "selenium": "mocha selenium/**/*.test.js --timeout 25000 --reporter mochawesome"
   },
   "type": "module",
   "name": "selenium-test",
