@@ -424,7 +424,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 
 > [!NOTE]
 > 📝🚧 **Note on Test Plans**
+
+> For the purpose of my interview demo, please be aware that Test Plans involving account creation, registration, captcha validations, or any actions related to authentication have been marked as **work-in-progress (WIP)**. I have intentionally left them in the state where these limitations were encountered.🧪🔍👩‍💻
 >
-> For the purpose of this interview demo, please be aware that Test Plans involving account creation, registration, captcha validations, or any actions related to authentication have been marked as **work-in-progress (WIP)**. They are intentionally left in the state where these limitations were encountered.
->
-> If you'd like to complete these Test Plans or add additional tests in these specific areas, you are welcome to do so. This will help ensure a more comprehensive evaluation of your testing skills for this application. 🚀✨🧪🔍👩‍💻
+> If I'd like to complete these Test Plans or add additional tests in these specific areas, I am welcome to do so. This will help ensure a more comprehensive evaluation of my testing skills for this application. 🚀✨
