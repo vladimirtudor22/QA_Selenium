@@ -171,20 +171,20 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 - **Objective:**
   - Validate the seamless order process from selection to placement.
 - **Test Scenarios:**
-- **Test 1: Complete Order Process:**
-- **Steps:**
-  - Login, add items, and proceed to checkout.
-  - Provide payment and delivery details.
-  - Confirm and place the order.
-  - Expected Outcome:
-  - The order should be placed without errors.
+  - **Test 1: Complete Order Process:**
+    - **Steps:**
+    - Login, add items, and proceed to checkout.
+    - Provide payment and delivery details.
+    - Confirm and place the order.
+    - Expected Outcome:
+    - The order should be placed without errors.
 - **Test 2: Verify Order in History:**
-- **Steps:**
-  - View recent orders in order history.
-  - Expected Outcome:
-  - The recent order should be accurately listed.
+  - **Steps:**
+    - View recent orders in order history.
+    - Expected Outcome:
+    - The recent order should be accurately listed.
 - **Test 3: Modify or Cancel Order:**
-- **Steps:**
-  - Select a recent order for modification or cancellation.
-  - Expected Outcome:
-  - The user should be able to modify or cancel the order.
+  - **Steps:**
+    - Select a recent order for modification or cancellation.
+    - Expected Outcome:
+    - The user should be able to modify or cancel the order.
