@@ -1,0 +1,31 @@
+1. Search and Navigation:
+- Functionality to search for products.
+- Filtering and sorting of search results.
+- Navigating through pages and product categories.
+2. Account Management:
+- Authentication and registration.
+- Account management process (address, payment details, delivery options).
+3. Shopping Cart:
+- Adding and removing items from the shopping cart.
+- Calculation of the total and taxes.
+- Order completion process.
+4. Order Process:
+- Completing payment details and delivery address.
+- Choosing delivery options.
+- Confirming and placing the order.
+5. Reviews and Ratings:
+- Adding and viewing product reviews.
+- Product and supplier rating system.
+6. Order Management and Returns:
+- Managing previous orders.
+- Product return process.
+7. Social Interaction:
+- Options for sharing and recommending products on social networks.
+8. Support and Assistance:
+- Accessing help and support pages for users.
+- Contacting and communicating with the support team.
+9. Performance and Loading:
+- Page and functionality loading time.
+10. Security and Privacy:
+- Verifying security measures for user data.
+- Management of passwords and secure authentication.

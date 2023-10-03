@@ -8,6 +8,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.3.10",
     "chromedriver": "^117.0.1",
     "mochawesome": "^7.1.3"
   },

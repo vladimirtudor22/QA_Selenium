@@ -1,2 +1,1 @@
-export const USER_NAME = "PLACEHOLDER";
-export const PASSWORD = "PLACEHOLDER";
+export const INITIAL_TIMEOUT = 10000;
