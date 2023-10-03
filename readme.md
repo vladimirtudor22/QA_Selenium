@@ -239,7 +239,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
 ### 7. Social Interaction
 
 - **Objective:**
-- Validate the basic functionality of social interaction options.
+  - Validate the basic functionality of social interaction options.
 - **Test Scenarios:**
   - **Test 1: Share a Product:**
     - **Steps:**
