@@ -85,23 +85,19 @@ Feel free to reach out if you have any questions or need further assistance! �
 
 - Ability for users to save their favorite products in a wishlist for future purchases.
 
-12. **Product Comparison ⚖️**
-
-- Functionality that allows users to compare specifications and prices of multiple products.
-
-13. **Real-time Pricing 💲**
+12. **Real-time Pricing 💲**
 
 - Continuous updates of product prices to reflect current offers and fluctuations.
 
-14. **Prime Membership 👑**
+13. **Prime Membership 👑**
 
 - Subscription offering special advantages to users, such as fast and free delivery for eligible products.
 
-15. **Affiliate Program 💼**
+14. **Affiliate Program 💼**
 
 - Opportunity for users to become affiliates and earn commissions from sales generated through affiliate links.
 
-16. **Special Sale Events 🎉**
+15. **Special Sale Events 🎉**
 
 - Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
 
@@ -366,18 +362,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Expected Outcome:**
     - Products can be added and removed from the wishlist.
 
-### 12. Product Comparison
-
-- **Objective:**
-
-  - Validate product comparison functionality.
-
-- **Test Scenarios:**
-  - Simulate comparing specifications and prices of multiple products.
-  - **Expected Outcome:**
-    - Products can be effectively compared.
-
-### 13. Real-time Pricing
+### 12. Real-time Pricing
 
 - **Objective:**
 
@@ -388,7 +373,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Expected Outcome:**
     - Prices are accurately and promptly updated in real-time.
 
-### 14. Prime Membership
+### 13. Prime Membership
 
 - **Objective:**
 
@@ -399,7 +384,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Expected Outcome:**
     - Understand the benefits available to Prime members.
 
-### 15. Affiliate Program
+### 14. Affiliate Program
 
 - **Objective:**
 
@@ -410,7 +395,7 @@ The testing plan aims to ensure the quality of key functionalities on the Amazon
   - **Expected Outcome:**
     - Understand the concept and process of the affiliate program.
 
-### 16. Special Sale Events
+### 15. Special Sale Events
 
 - **Objective:**
 
