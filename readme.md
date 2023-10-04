@@ -26,8 +26,6 @@ To ensure smooth setup and functionality, follow these steps: 🛠️👇
 
    **Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
 
-Feel free to reach out if you have any questions or need further assistance! 🚀 Happy coding and best of luck with your project! ✨
-
 ## Application Features
 
 1. **Search and Navigation 🔍**
