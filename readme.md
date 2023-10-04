@@ -13,7 +13,7 @@ To ensure smooth setup and functionality, follow these steps: 🛠️👇
    - Execute the command below in your terminal. 💻⬇️
 
      ```bash
-     npm install --save-dev
+     yarn install --save-dev
      ```
 
 3. **Run the following command to execute the tests:**
@@ -21,7 +21,7 @@ To ensure smooth setup and functionality, follow these steps: 🛠️👇
    - Execute the command below in your terminal. 💻⬇️
 
      ```bash
-     npm test
+     yarn test
      ```
 
    **Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
