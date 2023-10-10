@@ -49,4 +49,11 @@ describe("Shopping Cart", () => {
     );
     await driver.findElement(By.id("add-to-cart-button")).click();
   });
+  it("Cart should contain 3 products", async () => {
+    await driver.findElement(By.id("nav-cart-count")).click();
+    const productCount = await driver.executeScript(
+      'return document.getElementsByClassName("sc-product-title").length'
+    );
+    assert.strictEqual(productCount, 3, "Expected 3 products in the cart");
+  });
 });
