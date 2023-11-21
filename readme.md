@@ -1,6 +1,6 @@
 # Automated Testing Demo using Selenium WebDriver
 
-In this automated testing demo utilizing Selenium WebDriver, I have chosen the Amazon.com platform due to its abundance of elements tagged with IDs/names. 💻✨🚀
+In this Selenium WebDriver demonstration for automated testing, I've selected Amazon.com as the platform for its rich set of elements tagged with IDs/names. 💻✨🚀
 
 ## Runtime Environment Configuration
 
@@ -26,385 +26,272 @@ To ensure smooth setup and functionality, follow these steps: 🛠️👇
 
    **Note**: **Platform**: This project was created and tested on macOS. 🖥️💻
 
-## Application Features
+## Application Feature: Navigation Bar
 
-1. **Search and Navigation 🔍**
+The navigation bar is a critical component that allows users to access various sections and functionalities of the application. This set of automated tests ensures that users can smoothly navigate through the application using the navigation bar. 🚀
 
-   - Functionality to search for products.
-   - Filtering and sorting of search results.
-   - Navigating through pages and product categories.
+### Test Cases
 
-2. **Account Management 👤**
+#### 1. Navigate to Home 🏠
 
-   - Authentication and registration.
-   - Account management process (address, payment details, delivery options).
+- **Test Steps:**
+  - Click on the "Home" button in the navigation bar.
+- **Expected Outcome:**
+  - The URL should include "/#".
 
-3. **Shopping Cart 🛒**
+#### 2. Navigate to Hand Tools 🔧
 
-   - Adding and removing items from the shopping cart.
-   - Calculation of the total and taxes.
-   - Order completion process.
+- **Test Steps:**
+  - Click on the "Categories" option in the navigation bar.
+  - Click on the "Hand Tools" category.
+- **Expected Outcome:**
+  - The URL should include "/category/hand-tools".
 
-4. **Order Process 📦**
+#### 3. Navigate to Power Tools ⚡
 
-   - Completing payment details and delivery address.
-   - Choosing delivery options.
-   - Confirming and placing the order.
+- **Test Steps:**
+  - Click on the "Categories" option in the navigation bar.
+  - Click on the "Power Tools" category.
+- **Expected Outcome:**
+  - The URL should include "/category/power-tools".
 
-5. **Reviews and Ratings ⭐**
+#### 4. Navigate to Special Tools 🛠️
 
-   - Adding and viewing product reviews.
-   - Product and supplier rating system.
+- **Test Steps:**
+  - Click on the "Categories" option in the navigation bar.
+  - Click on the "Special Tools" category.
+- **Expected Outcome:**
+  - The URL should include "/category/special-tools".
 
-6. **Order Management and Returns 🔄**
+#### 5. Navigate to Rentals 🚗
 
-   - Managing previous orders.
-   - Product return process.
+- **Test Steps:**
+  - Click on the "Categories" option in the navigation bar.
+  - Click on the "Rentals" category.
+- **Expected Outcome:**
+  - The URL should include "/rentals".
 
-7. **Social Interaction 📣**
+#### 6. Navigate to Sign In 🔐
 
-   - Options for sharing and recommending products on social networks.
+- **Test Steps:**
+  - Click on the "Sign In" option in the navigation bar.
+- **Expected Outcome:**
+  - The URL should include "/auth/login".
 
-8. **Support and Assistance ❓**
+#### 7. Navigate to Contact 📞
 
-   - Accessing help and support pages for users.
-   - Contacting and communicating with the support team.
+- **Test Steps:**
+  - Click on the "Contact" option in the navigation bar.
+- **Expected Outcome:**
+  - The URL should include "/contact".
 
-9. **Security and Privacy 🔒**
+## Application Feature: Home Page
 
-   - Verifying security measures for user data.
-   - Management of passwords and secure authentication.
+The Home Page is the initial landing page of the application, and these automated tests focus on ensuring smooth functionality and navigation within this crucial section. 🌟
 
-10. **Personalized Recommendations 💡**
+### Test Cases
 
-- A personalized recommendation system that suggests products to users based on their previous browsing and purchasing behavior.
+#### 1. Apply Filters and Sort 🛠️
 
-11. **Wishlist ❤️**
+- **Test Steps:**
+  - Select a sorting option from the dropdown menu.
+  - Adjust the slider and validate the value change.
+  - Apply various filters by clicking on options.
+- **Expected Outcome:**
+  - Filters and sorting should be applied successfully.
 
-- Ability for users to save their favorite products in a wishlist for future purchases.
+#### 2. Navigate to Product and Go Back ⬅️
 
-12. **Real-time Pricing 💲**
+- **Test Steps:**
+  - Click on the first product card.
+  - Navigate back to the home page.
+- **Expected Outcome:**
+  - The product page should be accessible, and after going back, the product card should still be visible.
 
-- Continuous updates of product prices to reflect current offers and fluctuations.
+#### 3. Navigate Between Pages 🔄
 
-13. **Prime Membership 👑**
+- **Test Steps:**
+  - Click on different page numbers in the pagination.
+- **Expected Outcome:**
+  - The application should navigate smoothly between the pages.
 
-- Subscription offering special advantages to users, such as fast and free delivery for eligible products.
+## Application Feature: Account
 
-14. **Affiliate Program 💼**
+The Account feature encompasses all functionalities related to user accounts, registration, and login. These automated tests focus on ensuring a seamless user experience in managing their accounts. 🔐
 
-- Opportunity for users to become affiliates and earn commissions from sales generated through affiliate links.
+### Test Cases
 
-15. **Special Sale Events 🎉**
+#### 1. Register 📝
 
-- Special campaigns and sale events like Black Friday, Cyber Monday, and other seasonal promotions.
+- **Test Steps:**
+  - Click on "Sign In" in the navigation bar.
+  - Click on the "Register" link.
+  - Fill in the registration form with valid details.
+  - Submit the registration form.
+- **Expected Outcome:**
+  - The user should be successfully registered.
 
-# Automated Testing Plan for Amazon.com
+#### 2. Register with Existing Email 🚫
 
-## Objective
+- **Test Steps:**
+  - Click on "Sign In" in the navigation bar.
+  - Click on the "Register" link.
+  - Fill in the registration form with an email that already exists.
+  - Submit the registration form.
+- **Expected Outcome:**
+  - An error indicating that the email already exists should be displayed.
 
-The testing plan aims to ensure the quality of key functionalities on the Amazon.com platform by identifying and executing relevant test scenarios. 🧪📊🛒🔍👩‍💻
+#### 3. Login with Incorrect Credentials ❌
 
-## Testing Goals
+- **Test Steps:**
+  - Click on "Sign In" in the navigation bar.
+  - Enter incorrect login credentials.
+  - Submit the login form.
+- **Expected Outcome:**
+  - An error indicating unsuccessful login should be displayed.
 
-- Validate the accuracy and functionality of identified features. ✅🔍
-- Ensure efficient navigation and a pleasant user experience. 🚀😊
-- Validate the security and privacy of user data. 🔒🔐🛡️
+#### 4. Login with Correct Credentials and Sign Out ✅
 
-## Content
+- **Test Steps:**
+  - Perform a successful login (utilizes a reusable login command).
+  - Click on the user menu and choose "Sign Out".
+- **Expected Outcome:**
+  - The user should be successfully signed out.
 
-- [Search and Navigation](#1-search-and-navigation)
-- [Account Management](#2-account-management)
-- [Shopping Cart](#3-shopping-cart)
-- [Order Process](#4-order-process)
-- [Reviews and Ratings](#5-reviews-and-ratings)
-- [Order Management and Returns](#6-order-management-and-returns)
-- [Social Interaction](#7-social-interaction)
-- [Support and Assistance](#8-support-and-assistance)
-- [Security and Privacy](#9-security-and-privacy)
-- [Personalized Recommendations](#10-personalized-recommendations)
-- [Wishlist](#11-wishlist)
-- [Product Comparison](#12-product-comparison)
-- [Real-time Pricing](#13-real-time-pricing)
-- [Prime Membership](#14-prime-membership)
-- [Affiliate Program](#15-affiliate-program)
-- [Special Sale Events](#16-special-sale-events)
-- [Reports](selenium-reports.pdf)
+## ✉️ Application Feature: Contact Page
 
-## Test Plans
+The Contact Page allows users to send messages and inquiries to the platform. These automated tests ensure the proper functioning of the contact form and its validation. 📧
 
-### 1. Search and Navigation
+### Test Cases
 
-- **Objective:**
+#### 1. Message Too Short ⚠️
 
-  - Validate the functionality to search for products.
-  - Verify the filtering and sorting of search results.
-  - Confirm smooth navigation through pages and product categories.
+- **Test Steps:**
+  - Fill in the contact form with a very short message.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - An error indicating that the message must be at least 50 characters long should be displayed.
 
-- **Test Scenarios:**
+#### 2. Missing First Name ❌
 
-  - **Test 1: Search Functionality:**
+- **Test Steps:**
+  - Fill in the contact form without providing a first name.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - An error indicating that the first name is required should be displayed.
 
-    - Perform a search for a sample product.
-    - **Expected Outcome:**
-      - Search results displayed correctly.
+#### 3. Missing Last Name ❌
 
-  - **Test 2: Filtering and Sorting:**
+- **Test Steps:**
+  - Fill in the contact form without providing a last name.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - An error indicating that the last name is required should be displayed.
 
-    - Apply filters and sorting options on search results.
-    - **Expected Outcome:**
-      - Results are appropriately filtered and sorted.
+#### 4. Missing Email ❌
 
-  - **Test 3: Navigation through Categories:**
-    - Navigate through different product categories.
-    - **Expected Outcome:**
-      - Smooth navigation without errors.
-
-### 2. Account Management
-
-- **Objective:**
-
-  - Validate the absence of account creation and authentication.
-
-- **Test Scenarios:**
-
-  - **Test 1: Account Creation:**
-
-    - Attempt to create an account (which is not possible in this context).
-    - **Expected Outcome:**
-      - Account creation feature is not available.
-
-  - **Test 2: Account Authentication:**
-    - Attempt to authenticate to an existing account (which is not possible in this context).
-    - **Expected Outcome:**
-      - Account authentication feature is not available.
-
-### 3. Shopping Cart
-
-- **Objective:**
-
-  - Validate adding and removing items from the shopping cart.
-  - Verify the calculation of the total and taxes.
-  - Confirm the order completion process.
-
-- **Test Scenarios:**
-
-  - **Test 1: Adding Items to Cart:**
-
-    - Add a sample product to the shopping cart.
-    - **Expected Outcome:**
-      - Product is added to the cart correctly.
-
-  - **Test 2: Removing Items from Cart:**
-
-    - Remove a sample product from the cart.
-    - **Expected Outcome:**
-      - Product is removed from the cart correctly.
-
-  - **Test 3: Cart Total Calculation:**
-    - Add multiple products to the cart and verify total calculation.
-    - **Expected Outcome:**
-      - Total is calculated accurately.
-
-### 4. Order Process
-
-- **Objective:**
-  - Validate the seamless order process from selection to placement.
-- **Test Scenarios:**
-  - **Test 1: Complete Order Process:**
-    - **Steps:**
-      - Proceed to checkout without logging in (assuming no login is required).
-      - Provide payment and delivery details.
-      - Confirm and place the order.
-    - **Expected Outcome:**
-      - The order should be placed without errors.
-  - **Test 2: Verify Order in History:**
-    - **Steps:**
-      - View recent orders in order history.
-    - **Expected Outcome:**
-      - The recent order should be accurately listed.
-  - **Test 3: Modify or Cancel Order:**
-    - **Steps:**
-      - Select a recent order for modification or cancellation.
-    - **Expected Outcome:**
-      - The user should be able to modify or cancel the order.
-
-### 5. Reviews and Ratings
-
-- **Objective:**
-  - Validate the basic functionality of the Reviews and Ratings system.
-- **Test Scenarios:**
-  - **Test 1: Add a Review:**
-    - **Steps:**
-      - Navigate to a product.
-      - Attempt to add a review and rating.
-    - **Expected Outcome:**
-      - The review feature should not be available without an account.
-  - **Test 2: View Product Reviews:**
-    - **Steps:**
-      - Navigate to a product.
-      - Attempt to view existing reviews and ratings.
-    - **Expected Outcome:**
-      - The reviews and ratings should not be accessible without an account.
-
-### 6. Order Management and Returns
-
-- **Objective:**
-  - Validate the basic functionality of order management and the returns process.
-- **Test Scenarios:**
-  - **Test 1: View Order History:**
-    - **Steps:**
-      - Attempt to log in to an account (assuming no login is required).
-      - Navigate to the order history.
-    - **Expected Outcome:**
-      - The user should be able to view their order history if login is not required.
-  - **Test 2: Initiate a Return:**
-    - **Steps:**
-      - Attempt to log in to an account (assuming no login is required).
-      - Select a recent order to initiate a return.
-    - **Expected Outcome:**
-      - The user should be able to initiate a return for the selected order if login is not required.
-  - **Test 3: Track Return Status:**
-    - **Steps:**
-      - Attempt to log in to an account (assuming no login is required).
-      - Navigate to the returns section.
-    - **Expected Outcome:**
-      - The user should be able to track the status of their return if login is not required.
-
-### 7. Social Interaction
-
-- **Objective:**
-  - Validate the basic functionality of social interaction options.
-- **Test Scenarios:**
-  - **Test 1: Share a Product:**
-    - **Steps:**
-      - Navigate to a product on Amazon.
-      - Attempt to share the product on a social network.
-    - **Expected Outcome:**
-      - The sharing feature should not be available without an account.
-  - **Test 2: Recommend a Product:**
-    - **Steps:**
-      - Navigate to a product on Amazon.
-      - Attempt to recommend the product to a friend.
-    - **Expected Outcome:**
-      - The recommendation feature should not be available without an account.
-  - **Test 3: Social Media Integration:**
-    - **Steps:**
-      - Attempt to log in to Amazon using social media credentials (assuming no login is required).
-      - Perform an action that integrates with a social media platform.
-    - **Expected Outcome:**
-      - The action should not be possible without an account.
-  - **Test 4: Like or Upvote a Product:**
-    - **Steps:**
-      - Navigate to a product on Amazon.
-      - Attempt to like or upvote the product.
-    - **Expected Outcome:**
-      - Liking or upvoting the product should not be possible without an account.
-  - **Test 5: Comment on a Product:**
-    - **Steps:**
-      - Navigate to a product on Amazon.
-      - Attempt to comment on the product.
-    - **Expected Outcome:**
-      - Commenting on the product should not be possible without an account.
-
-### 8. Support and Assistance
-
-- **Objective:**
-  - Validate basic support and assistance features.
-- **Test Scenarios:**
-  - **Test 1: Access Help Pages:**
-    - **Steps:**
-      - Attempt to access help and assistance pages.
-    - **Expected Outcome:**
-      - Help pages should be accessible without an account.
-  - **Test 2: Search for Assistance:**
-    - **Steps:**
-      - Attempt to perform a search for assistance.
-    - **Expected Outcome:**
-      - Relevant assistance information should be retrieved without an account.
-  - **Test 3: Access FAQ:**
-    - **Steps:**
-      - Attempt to access the Frequently Asked Questions (FAQ) section.
-    - **Expected Outcome:**
-      - The FAQ section should be accessible without an account.
-
-### 9. Security and Privacy
-
-- **Objective:**
-  - Validate basic security and privacy features.
-- **Test Scenarios:**
-  - **Test 1: Privacy Settings:**
-    - **Steps:**
-      - Attempt to check user privacy settings and options.
-    - **Expected Outcome:**
-      - Privacy settings should not be accessible without an account.
-
-### 10. Personalized Recommendations
-
-- **Objective:**
-
-  - Validate the personalized recommendation system.
-
-- **Test Scenarios:**
-  - Interact with the platform and observe product recommendations.
-  - **Expected Outcome:**
-    - Accurate product recommendations are provided.
-
-### 11. Wishlist
-
-- **Objective:**
-
-  - Validate wishlist functionality.
-
-- **Test Scenarios:**
-  - Use the platform to add and remove products to/from the wishlist.
-  - **Expected Outcome:**
-    - Products can be added and removed from the wishlist.
-
-### 12. Real-time Pricing
-
-- **Objective:**
-
-  - Validate real-time pricing updates.
-
-- **Test Scenarios:**
-  - Monitor and verify continuous price updates for products.
-  - **Expected Outcome:**
-    - Prices are accurately and promptly updated in real-time.
-
-### 13. Prime Membership
-
-- **Objective:**
-
-  - Validate Prime membership benefits.
-
-- **Test Scenarios:**
-  - Explore and access Prime membership features if available without an account.
-  - **Expected Outcome:**
-    - Understand the benefits available to Prime members.
-
-### 14. Affiliate Program
-
-- **Objective:**
-
-  - Validate the affiliate program functionality.
-
-- **Test Scenarios:**
-  - Explore information related to the affiliate program.
-  - **Expected Outcome:**
-    - Understand the concept and process of the affiliate program.
-
-### 15. Special Sale Events
-
-- **Objective:**
-
-  - Validate special sale events functionality.
-
-- **Test Scenarios:**
-
-  - Explore information about special sale events like Black Friday.
-  - **Expected Outcome:**
-  - Understand the concept and details of special sale events.
+- **Test Steps:**
+  - Fill in the contact form without providing an email address.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - An error indicating that the email address is required should be displayed.
+
+#### 5. Missing Subject ❌
+
+- **Test Steps:**
+  - Fill in the contact form without selecting a subject.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - An error indicating that a subject must be selected should be displayed.
+
+#### 6. Send Message Successfully ✅
+
+- **Test Steps:**
+  - Fill in the contact form with valid information.
+  - Submit the contact form.
+- **Expected Outcome:**
+  - A success message confirming the message submission should be displayed.
+
+## Application Feature: Product Interaction
+
+The Product Interaction feature encompasses a set of tests that validate various actions a user can perform with products on the website. 🌟
+
+### Test Cases
+
+#### 1. Match First Product with Backend Data 🔄
+
+- **Test Steps:**
+  - Click on the first product.
+  - Retrieve product details from the backend.
+  - Compare the product name and description with the backend data.
+- **Expected Outcome:**
+  - Product name and description match the backend data.
+
+#### 2. Match Second Product with Backend Data 🔄
+
+- **Test Steps:**
+  - Click on the second product.
+  - Retrieve product details from the backend.
+  - Compare the product name and description with the backend data.
+- **Expected Outcome:**
+  - Product name and description match the backend data.
+
+#### 3. Quantity Manipulation ⬆️⬇️
+
+- **Test Steps:**
+  - Click on a product.
+  - Increase the quantity of the product.
+  - Decrease the quantity of the product.
+- **Expected Outcome:**
+  - Quantity manipulation functions correctly.
+
+#### 4. Add Product to Cart 🛒
+
+- **Test Steps:**
+  - Click on a product.
+  - Add the product to the cart.
+- **Expected Outcome:**
+  - Product is successfully added to the cart.
+
+#### 5. Add Product to Favorites ⭐️
+
+- **Test Steps:**
+  - Log in to the platform.
+  - Click on a product.
+  - Add the product to favorites.
+- **Expected Outcome:**
+  - Product is successfully added to the favorites list.
+
+#### 6. Unable to Add Product to Favorites (Not Logged In) 🚫
+
+- **Test Steps:**
+  - Click on a product.
+  - Attempt to add the product to favorites without being logged in.
+- **Expected Outcome:**
+  - Unauthorized message should appear indicating inability to add to favorites.
+
+## Application Feature: Order Placement
+
+The Order Placement feature comprises a test that validates the process of placing an order on the website. 🌟
+
+### Test Case
+
+#### 1. Place an Order and Complete Payment 💳
+
+- **Test Steps:**
+  - Log in to the platform.
+  - Click on a product.
+  - Add the product to the cart.
+  - Proceed to the cart.
+  - Proceed to address information.
+  - Proceed to delivery method.
+  - Proceed to payment method.
+  - Select "Gift Card" as the payment method.
+  - Enter account name and account number.
+  - Complete the order.
+- **Expected Outcome:**
+
+  - Payment is successful, and a confirmation message is displayed.
 
 > [!NOTE]
 > 📝 **Note on Test Plans** 🚧
